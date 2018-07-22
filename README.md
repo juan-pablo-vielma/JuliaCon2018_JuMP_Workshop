@@ -12,7 +12,7 @@ Binaries of Julia for all platforms are available [here](http://julialang.org/do
 
 To install the latest versions of [JuMP](https://github.com/JuliaOpt/JuMP.jl), [MathOptInterface](https://github.com/JuliaOpt/MathOptInterface.jl) and the open-source LP/MIP solvers [GLPK](https://www.gnu.org/software/glpk/) run the following code:
 ```julia
-Pkg
+Pkg.update()
 Pkg.add("JuMP")
 Pkg.checkout("JuMP")
 Pkg.add("MathOptInterface")
