@@ -27,19 +27,19 @@ To test that your installation is working, run the following code (the first tim
 ```julia
 using JuMP, MathOptInterface, GLPK
 const MOI = MathOptInterface
-m = Model(optimizer = GLPK.GLPKOptimizerLP())
-@variable(m, x >= 0)
-@variable(m, y >= 0)
-@objective(m, Min, x + y)
-@constraint(m, x + y <= 1)
-JuMP.optimize(m)
-println(MOI.get(m.moibackend, MOI.VariableName(), MOI.get(m.moibackend, MOI.VariableIndex, "x"))," = ",JuMP.resultvalue(x))
+model = Model(optimizer = GLPK.GLPKOptimizerLP())
+@variable(model, x >= 0)
+@variable(model, y >= 0)
+@objective(model, Min, x + y)
+@constraint(model, x + y <= 1)
+JuMP.optimize(model)
+MOI.get(model, MOI.VariablePrimal(), x) == JuMP.resultvalue(x) == 0.0
 ```
 
 The output should be:
 
 ```
-x = 0.0
+true
 ```
 
 ## Install IJulia and Jupyter
