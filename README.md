@@ -15,11 +15,7 @@ To install the latest versions of [JuMP](https://github.com/JuliaOpt/JuMP.jl), [
 Pkg.update()
 Pkg.add("JuMP")
 Pkg.checkout("JuMP")
-Pkg.add("MathOptInterface")
-Pkg.checkout("MathOptInterface")
 Pkg.add("GLPK")
-Pkg.checkout("GLPK")
-
 ```
 
 To test that your installation is working, run the following code (the first time you run the code you may see the message like "INFO: Precompiling stale cache ..." for a few seconds):
