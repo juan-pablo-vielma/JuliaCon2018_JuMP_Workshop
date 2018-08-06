@@ -14,7 +14,7 @@ To install the latest versions of [JuMP](https://github.com/JuliaOpt/JuMP.jl), [
 ```julia
 Pkg.update()
 Pkg.add("JuMP")
-Pkg.checkout("JuMP")
+Pkg.checkout("JuMP", "juliacon2018/0.19-dev")
 Pkg.add("GLPK")
 ```
 
