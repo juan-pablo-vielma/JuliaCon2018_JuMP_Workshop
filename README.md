@@ -1,6 +1,6 @@
 #  JuMP Workshop at JuliaCon 2018
 
-This site contains materials for the [JuMP](https://github.com/JuliaOpt/JuMP.jl) workshop at [JuliaCon 2018](http://juliacon.org/2018/)
+This site contains materials for the [JuMP](https://github.com/JuliaOpt/JuMP.jl) workshop at [JuliaCon 2018](http://juliacon.org/2018/). It is based on materials and notebooks from various sources including the [JuliaOpt notebooks](https://github.com/JuliaOpt/juliaopt-notebooks), the [2018 ISCO Spring School](https://github.com/joehuchette/ISCO-spring-school) and the [second annual JuMP-dev workshop](http://www.juliaopt.org/meetings/bordeaux2018/).
 
 ## Install Julia
 
