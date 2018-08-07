@@ -38,6 +38,8 @@ The output should be:
 true
 ```
 
+** Note (if you have installed MOI directly): ** Some notebooks may not work with MOI v0.5
+
 ## Install IJulia and Jupyter
 
 [Jupyter](http://jupyter.org) is a convenient notebook-based interface to present documents which interleave code, text, and equations. Example code will be available in notebook format, but you should also be able to copy the notebook code to run from the REPL.
