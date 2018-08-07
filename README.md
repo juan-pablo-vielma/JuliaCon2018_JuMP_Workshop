@@ -38,7 +38,7 @@ The output should be:
 true
 ```
 
-** Note (if you have installed MOI directly): ** Some notebooks may not work with MOI v0.5
+**Note (if you have installed MOI directly):** Some notebooks may not work with MOI v0.5
 
 ## Install IJulia and Jupyter
 
