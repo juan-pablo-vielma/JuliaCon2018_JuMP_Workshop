@@ -23,7 +23,7 @@ To test that your installation is working, run the following code (the first tim
 ```julia
 using JuMP, MathOptInterface, GLPK
 const MOI = MathOptInterface
-model = Model(with_optimizer(GLPK.GLPKOptimizerLP))
+model = Model(with_optimizer(GLPK.Optimizer))
 @variable(model, x >= 0)
 @variable(model, y >= 0)
 @objective(model, Min, x + y)
