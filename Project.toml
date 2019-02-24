@@ -1,0 +1,8 @@
+[deps]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+ECOS = "e2685f51-7e38-5353-a97d-a921fd2c8199"
+GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
